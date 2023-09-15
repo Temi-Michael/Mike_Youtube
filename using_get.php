@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="new1.php" method="get">
+    <form action="using_get.php" method="get">
         Name : <input type="text" name="name" id=""> <br>
         <input type="submit" value="Submit">
 
