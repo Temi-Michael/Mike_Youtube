@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="using_post.php" method="post"></form>
+    <form action="using_post.php" method="post">
+        <input type="password" name="password" id=""> <br>
+        <input type="submit" value="Submit">
+    </form> <br>
+
+    <?php 
+        echo $_POST["password"];
+    ?>
+
 </body>
 </html>
