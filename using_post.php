@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="using_post.php" method="post">
-        <input type="password" name="password" id=""> <br>
+        Password : <input type="password" name="password" id=""> <br>
         <input type="submit" value="Submit">
     </form> <br>
 
