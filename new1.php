@@ -10,9 +10,10 @@
         Name : <input type="text" name="name" id=""> <br>
         <input type="submit" value="Submit">
 
-        <?php 
-            echo $_GET["name"];
-        ?>
-    </form>
+    </form> <br>
+
+    <?php 
+        echo $_GET["name"];
+    ?>
 </body>
 </html>
