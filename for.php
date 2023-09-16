@@ -7,8 +7,10 @@
 </head>
 <body>
     <?php 
-    
-    
+    $luckyNumbers = array(23, 32, 56, 21, 45, 26, 33, 78);
+    for ($i=1; $i <= count($luckyNumbers); $i++) { 
+        echo $luckyNumbers[$i]. "<br>";
+    }
     
     
     ?>
